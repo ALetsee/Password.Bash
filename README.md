@@ -57,6 +57,4 @@ Los usuarios se almacenan en un archivo llamado `users.txt`, donde cada línea c
    - Se proporciona el nombre de usuario y la contraseña.
    - Si coinciden con los datos almacenados en `users.txt`, se concede acceso.
 
----
 
-> ¡Disfruta utilizando el Sistema de Gestión de Usuarios! 🚀
