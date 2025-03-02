@@ -1,3 +1,45 @@
+# **Install**
+## Requisitos previos
+
+Asegúrate de tener instalado `git` y `bash` en tu sistema.
+1. **Instalar `git`:**
+
+   - **En Ubuntu/Debian**:  
+     ```bash
+     sudo apt update
+     sudo apt install git
+     ```
+
+   - **En macOS**:  
+     Usa Homebrew para instalar git:
+     ```bash
+     brew install git
+     ```
+
+   - **En Windows**:  
+     Para instalar `git` en Windows, sigue estos pasos:
+     1. Ve al [sitio web oficial de Git para Windows](https://git-scm.com/download/win).
+     2. Descarga el instalador correspondiente a tu versión de Windows.
+     3. Ejecuta el instalador y sigue las instrucciones predeterminadas. Asegúrate de seleccionar la opción para agregar Git al `PATH` durante la instalación.
+
+     Una vez instalado, puedes verificar la instalación abriendo la terminal y ejecutando:
+
+     ```bash
+     git --version
+     ```
+
+2. **Instalar `bash`**:  bash generalmente viene preinstalado en la mayoría de sistemas operativos. Si no lo tienes, puedes instalarlo utilizando el gestor de paquetes correspondiente a tu sistema.
+
+## Clonar el repositorio
+
+Para clonar el repositorio de `Password.Bash`, abre una terminal y ejecuta el siguiente comando:
+
+  ```
+- git clone https://github.com/ALetsee/pw.Bash.git
+- cd pw.bash
+- bash pw.sh
+  ```
+
 # **Sistema de Gestión de Usuarios y encriptación**
 
 Este es un sistema de gestión de usuarios en línea de comandos (CLI) que permite a los usuarios registrar nuevos usuarios, iniciar sesión y gestionar contraseñas con reglas de seguridad.
