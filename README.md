@@ -35,7 +35,7 @@ Asegúrate de tener instalado `git` y `bash` en tu sistema.
 Para clonar el repositorio de `Password.Bash`, abre una terminal y ejecuta el siguiente comando:
 
   ```
-- git clone https://github.com/ALetsee/pw.Bash.git
+- git clone https://github.com/ALetsee/pw.bash.git
 - cd pw.bash
 - bash pw.sh
   ```
