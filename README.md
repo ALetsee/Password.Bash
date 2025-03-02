@@ -1,7 +1,7 @@
 # **Sistema de Gestión de Usuarios y encriptación**
 
 Este es un sistema de gestión de usuarios en línea de comandos (CLI) que permite a los usuarios registrar nuevos usuarios, iniciar sesión y gestionar contraseñas con reglas de seguridad.
-
+![i1](./imgs/1.png)
 ## Funcionalidades
 
 ### 1. **Registrar nuevo usuario**
@@ -14,11 +14,13 @@ Este es un sistema de gestión de usuarios en línea de comandos (CLI) que permi
        - Al menos un carácter especial de los siguientes: `@`, `#`, `$`, `%`, `&`, `*`
      - **Ingresar una contraseña manualmente**: El usuario puede proporcionar su propia contraseña, que será validada con las reglas anteriores. Si la contraseña no cumple con los requisitos, se pedirá que el usuario la ingrese nuevamente.
 
+![I2](./imgs/2.png)
+
 ### 2. **Iniciar sesión**
    - El sistema permite a los usuarios iniciar sesión proporcionando su nombre de usuario y contraseña.
    - Si las credenciales son correctas (es decir, si coinciden con un registro en el archivo `users.txt`), el acceso es concedido.
    - Si las credenciales no coinciden, se mostrará un mensaje de error.
-
+![i3](./imgs/3.png)
 ### 3. **Salir del sistema**
    - El sistema permite cerrar la aplicación y salir del programa.
 
